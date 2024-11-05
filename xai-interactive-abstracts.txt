@@ -1,0 +1,300 @@
+booshehri2024computational​
+In this paper we consider the interactive processes by which an​
+explainer and an explainee cooperate to produce an explanation,​
+which we refer to as co-construction. Explainable Artificial Intel-​
+ligence (XAI) is concerned with the development of intelligent​
+systems and robots that can explain and justify their actions, de-​
+cisions, recommendations, and so on. However, the cooperative​
+construction of explanations remains a key but under-explored​
+issue. This short paper proposes an architecture for intelligent​
+systems that promotes a co-constructive and interactive approach​
+to explanation generation. By outlining its basic components and​
+their specific roles, we aim to contribute to the advancement of​
+XAI computational frameworks that actively engage users in the​
+explanation process.​
+explainable artificial intelligence, co-construction, computational​
+architecture, MAPE-K.​
+
+kim2024xai
+With increasing electronic medical data and the development of artificial intelligence,​
+clinical decision support systems (CDSSs) assist clinicians in diagnosis and prescription. Traditional​
+knowledge-based CDSSs follow an accumulated medical knowledgebase and a predefined rule​
+system, which clarifies the decision-making process; however, maintenance cost issues exist in the​
+medical data quality control and standardization processes. Non-knowledge-based CDSSs utilize vast​
+amounts of data and algorithms to effectively make decisions; however, the deep learning black-box​
+problem causes unreliable results. EXplainable Artificial Intelligence (XAI)-based CDSSs provide​
+valid rationales and explainable results. These systems ensure trustworthiness and transparency by​
+showing the recommendation and prediction result process using explainable techniques. However,​
+existing systems have limitations, such as the scope of data utilization and the lack of explanatory​
+power of AI models. This study proposes a new XAI-based CDSS framework to address these issues;​
+introduces resources, datasets, and models that can be utilized; and provides a foundation model​
+to support decision-making in various disease domains. Finally, we propose future directions for​
+CDSS technology and highlight societal issues that need to be addressed to emphasize the potential​
+of CDSSs in the future.​
+Keywords: explainable AI; deep learning; clinical decision support system.​
+
+huang2022analysis​
+Explainable Artificial Intelligence (XAI) research​
+focuses on effective explanation techniques to understand and​
+build AI models with trust, reliability, safety, and fairness. Fea-​
+ture importance explanation summarizes feature contributions​
+for end-users to make model decisions. However, XAI methods​
+may produce varied summaries that lead to further analysis to​
+evaluate the consistency across multiple XAI methods on the​
+same model and data set. This paper defines metrics to measure​
+the consistency of feature contribution explanation summaries​
+under feature importance order and saliency map. Driven by​
+these consistency metrics, we develop an XAI process oriented​
+on the XAI criterion of feature importance, which performs​
+a systematical selection of XAI techniques and evaluation of​
+explanation consistency. We demonstrate the process develop-​
+ment involving twelve XAI methods on three topics, including a​
+search ranking system, code vulnerability detection and image​
+classification. Our contribution is a practical and systematic​
+process with defined consistency metrics to produce rigorous​
+feature contribution explanations. ​
+Index Terms—Explainable AI, Feature Importance, XAI Pro-​
+cess, Machine Learning, Deep Learning. ​
+
+chromik2021review​
+The interdisciplinary field of explainable artificial intelligence​
+(XAI) aims to foster human understanding of black-box machine learn-​
+ing models through explanation-generating methods. Although the social​
+sciences suggest that explanation is a social and iterative process between​
+an explainer and an explainee, explanation user interfaces and their user​
+interactions have not been systematically explored in XAI research yet.​
+Therefore, we review prior XAI research containing explanation user in-​
+terfaces for ML-based intelligent systems and describe different concepts​
+of interaction. Further, we present observed design principles for interac-​
+tive explanation user interfaces. With our work, we inform designers of​
+XAI systems about human-centric ways to tailor their explanation user​
+interfaces to different target audiences and use cases.​
+Keywords: explainable AI · explanation user interfaces · interaction​
+design · literature review.​
+
+nazar2021systematic​
+Artificial intelligence (AI) is one of the emerging technologies. In recent decades, artificial​
+intelligence (AI) has gained widespread acceptance in a variety of fields, including virtual support,​
+healthcare, and security. Human-Computer Interaction (HCI) is a field that has been combining AI and​
+human-computer engagement over the past several years in order to create an interactive intelligent​
+system for user interaction. AI, in conjunction with HCI, is being used in a variety of fields by employing​
+various algorithms and employing HCI to provide transparency to the user, allowing them to trust the​
+machine. The comprehensive examination of both the areas of AI and HCI, as well as their subfields, has​
+been explored in this work. The main goal of this article was to discover a point of intersection between the​
+two fields. The understanding of Explainable Artificial Intelligence (XAI), which is a linking point of HCI and​
+XAI, was gained through a literature review conducted in this research. The literature survey encompassed​
+themes identified in the literature (such as XAI and its areas, major XAI aims, and XAI problems and​
+challenges). The study's other major focus was on the use of AI, HCI, and XAI in healthcare. The poll also​
+addressed the shortcomings in XAI in healthcare, as well as the field's future potential. As a result, the​
+literature indicates that XAI in healthcare is still a novel subject that has to be explored more in the future.​
+INDEX TERMS Artificial Intelligence, Deep Learning, Explainable Artificial Intelligence, Healthcare,​
+Human-Computer Interaction, Human-Centered Design, Machine Learning, Usability, User-Centered​
+Design.​
+
+shneiderman2022human​
+The remarkable progress in algorithms for machine and deep learning have opened the doors to new opportunities, and some dark possibilities. However, a bright future awaits those who build on their working methods by including HCAI strategies of design and testing. As many technology companies and thought leaders have argued, the goal is not to replace people, but to empower them by making design choices that give humans control over technology.​
+In Human-Centered AI, Professor Ben Shneiderman offers an optimistic realist's guide to how artificial intelligence can be used to augment and enhance humans' lives. This project bridges the gap between ethical considerations and practical realities to offer a road map for successful, reliable systems. Digital cameras, communications services, and navigation apps are just the beginning. Shneiderman shows how future applications will support health and wellness, improve education, accelerate business, and connect people in reliable, safe, and trustworthy ways that respect human values, rights, justice, and dignity. ​
+​
+
+baniecki2020grammar​
+The growing need for in-depth analysis of predictive models leads to a se-​
+ries of new methods for explaining their local and global properties. Which of these​
+methods is the best? It turns out that this is an ill-posed question. One cannot suffi-​
+ciently explain a black-box machine learning model using a single method that gives​
+only one perspective. Isolated explanations are prone to misunderstanding, leading​
+to wrong or simplistic reasoning. This problem is known as the Rashomon effect and​
+refers to diverse, even contradictory, interpretations of the same phenomenon. Sur-​
+prisingly, most methods developed for explainable and responsible machine learning​
+focus on a single-aspect of the model behavior.​
+In contrast, we showcase the problem of explainability as an interactive and se-​
+quential analysis of a model. This paper proposes how different Explanatory Model​
+Analysis (EMA) methods complement each other and discusses why it is essential to​
+juxtapose them. The introduced process of Interactive EMA (IEMA) derives from the​
+algorithmic side of explainable machine learning and aims to embrace ideas devel-​
+oped in cognitive sciences. We formalize the grammar of IEMA to describe potential​
+human-model dialogues. It is implemented in a widely used human-centered open-​
+source software framework that adopts interactivity, customizability and automation​
+as its main traits. We conduct a user study to evaluate the usefulness of IEMA, which​
+indicates that an interactive sequential analysis of a model increases the performance​
+and confidence of human decision making.​
+Keywords Explainable AI · Model-agnostic explanation · Black-box model ·​
+Interactive explainability · Human-centered XAI​
+
+feustel2024enhancing​
+Explainable artificial intelligence (XAI) is​
+a rapidly evolving field that seeks to cre-​
+ate AI systems that can provide human-​
+understandable explanations for their decision-​
+making processes. However, these explana-​
+tions rely on model and data-specific informa-​
+tion only. To support better human decision-​
+making, integrating domain knowledge into AI​
+systems is expected to enhance understanding​
+and transparency. In this paper, we present​
+an approach for combining XAI explanations​
+with domain knowledge within a dialogue sys-​
+tem. We concentrate on techniques derived​
+from the field of computational argumentation​
+to incorporate domain knowledge and corre-​
+sponding explanations into human-machine di-​
+alogue. We implement the approach in a proto-​
+type system for an initial user evaluation, where​
+users interacted with the dialogue system to re-​
+ceive predictions from an underlying AI model.​
+The participants were able to explore different​
+types of explanations and domain knowledge.​
+Our results indicate that users tend to more​
+effectively evaluate model performance when​
+domain knowledge is integrated. On the other​
+hand, we found that domain knowledge was​
+not frequently requested by the user during dia-​
+logue interactions.​
+
+rago2023interactive​
+As the field of explainable AI (XAI) is maturing, calls for​
+interactive explanations for (the outputs of) AI models are​
+growing, but the state-of-the-art predominantly focuses on​
+static explanations. In this paper, we focus instead on in-​
+teractive explanations framed as conflict resolution between​
+agents (i.e. AI models and/or humans) by leveraging on com-​
+putational argumentation. Specifically, we define Argumen-​
+tative eXchanges (AXs) for dynamically sharing, in multi-​
+agent systems, information harboured in individual agents’​
+quantitative bipolar argumentation frameworks towards re-​
+solving conflicts amongst the agents. We then deploy AXs​
+in the XAI setting in which a machine and a human inter-​
+act about the machine’s predictions. We identify and assess​
+several theoretical properties characterising AXs that are suit-​
+able for XAI. Finally, we instantiate AXs for XAI by defining​
+various agent behaviours, e.g. capturing counterfactual pat-​
+terns of reasoning in machines and highlighting the effects of​
+cognitive biases in humans. We show experimentally (in a​
+simulated environment) the comparative advantages of these​
+behaviours in terms of conflict resolution, and show that the​
+strongest argument may not always be the most effective.​
+
+conati2023personalized​
+Our research is a step toward ascertaining the need for personalization, in XAI, and we​
+do so in the context of investigating the value of explanations of AI-driven hints and​
+feedback are useful in Intelligent Tutoring Systems (ITS). We added an explanation​
+functionality for the adaptive hints provided by the Adaptive CSP (ACSP) applet, an​
+interactive simulation that helps students learn an algorithm for constraint satisfaction​
+problems by providing AI-driven hints adapted to their predicted level of learning. We​
+present the design of the explanation functionality and the results of a controlled study​
+to evaluate its impact on students’ learning and perception of the ACPS hints. The study​
+includes an analysis of how these outcomes are modulated by several user​
+characteristics such as personality traits and cognitive abilities, to asses if explanations​
+should be personalized to these characteristics. Our results indicate that providing​
+explanations increase students’ trust in the ACPS hints, perceived usefulness of the​
+hints, and intention to use them again. In addition, we show that students’ access of the​
+explanation and learning gains are modulated by user characteristics, providing insights​
+toward designing personalized Explainable AI (XAI) for ITS.​
+Keywords: Explainable Artificial Intelligence (XAI); Intelligent Tutoring Systems​
+(ITS); User Modeling; Personalization​
+
+guo2024explainability​
+Explainable AI (XAI) tools represent a turn to more human-centered and human-in-the-loop AI approaches that emphasize user needs​
+and perspectives in machine learning model development workflows. However, while the majority of ML resources available today are​
+developed for Python computational environments such as JupyterLab and Jupyter Notebook, the same has not been true of interactive​
+XAI systems, which are often still implemented as standalone interfaces. In this paper, we address this mismatch by identifying three​
+design patterns for embedding front-end XAI interfaces into Jupyter, namely: 1) One-way communication from Python to JavaScript,​
+2) Two-way data synchronization, and 3) Bi-directional callbacks. We also provide an open-source toolkit, bonXAI, that demonstrates​
+how each design pattern might be used to build interactive XAI tools for a Pytorch text classification workflow. Finally, we conclude​
+with a discussion of best practices and open questions. Our aims for this paper are to discuss how interactive XAI tools might be​
+developed for computational notebooks, and how they can better integrate into existing model development workflows to support​
+more collaborative, human-centered AI.​
+CCS Concepts: • Human-centered computing → Visualization systems and tools; Visual analytics.​
+Additional Key Words and Phrases: Jupyter, Computational Notebooks, Literate Programming, Explainable AI, Human-centered AI​
+
+mozolewski2022explain​
+In this preliminary work, we present an approach for augmentation of clustering with natural language​
+explanations. In clustering there are 2 main challenges: a) choice of a proper, reasonable number of clusters​
+and b) cluster analysis and profiling. There is a plethora of technics for a) but not so much for b), which is in​
+general a laborious task of explaining obtained clusters. In this work, we propose a method that aids experts in​
+cluster analysis by providing iterative, human-in-the-loop methodology of generating cluster explanations. In​
+a convincing example, we show how the process of clustering on a set of objective variables could be facilitated​
+with textual metadata. In our case, images of products from online fashion store are used for clustering. Then,​
+product descriptions are used for profiling clusters.​
+Keywords: XAI, clustering, metadata, Natural Language Processing, explanations, narratives​
+
+mindlin2024measuring​
+The field of eXplainable Artificial Intelligence (XAI) is​
+increasingly recognizing the need to personalize and/or interactively​
+adapt the explanation to better reflect users’ explanation needs. While​
+dialogue-based approaches to XAI have been proposed recently, the​
+state-of-the-art in XAI is still characterized by what we call one-shot,​
+non-personalized and one-way explanations. In contrast, dialogue-​
+based systems that can adapt explanations through interaction with​
+a user promise to be superior to GUI-based or dashboard explana-​
+tions as they offer a more intuitive way of requesting information. In​
+general, while interactive XAI systems are often evaluated in terms​
+of user satisfaction, there are limited studies that access user’s objec-​
+tive model understanding. This is in particular the case for dialogue-​
+based XAI approaches. In this paper, we close this gap by carrying​
+out controlled experiments within a dialogue framework in which​
+we measure understanding of users in three phases by asking them​
+to simulate the predictions of the model they are learning about. By​
+this, we can quantify the level of (improved) understanding w.r.t. how​
+the model works, comparing the state prior, and after the interaction.​
+We further analyze the data to reveal patterns of how the interaction​
+between groups with high vs. low understanding gain differ. Overall,​
+our work thus contributes to our understanding about the effective-​
+ness of XAI approaches.​
+
+singh2024actionability​
+In this paper, we introduce and evaluate a tool for​
+researchers and practitioners to assess the actionability of infor-​
+mation provided to users to support algorithmic recourse. While​
+there are clear benefits of recourse from the user’s perspective,​
+the notion of actionability in explainable AI research remains​
+vague, and claims of ‘actionable’ explainability techniques are​
+based on the researchers’ intuition. Inspired by definitions and​
+instruments for assessing actionability in other domains, we​
+construct a seven-question tool and evaluate its effectiveness​
+through two user studies. We show that the tool discriminates​
+actionability across explanation types and that the distinctions​
+align with human judgements. We show the impact of context​
+on actionability assessments, suggesting that domain-specific tool​
+adaptations may foster more human-centred algorithmic systems.​
+This is a significant step forward for research and practices​
+into actionable explainability and algorithmic recourse, providing​
+the first clear human-centred definition and tool for assessing​
+actionability in explainable AI.​
+Index Terms—Explainable AI, Algorithmic Recourse, Action-​
+ability.​
+
+alaqsam2024systematic​
+The explainability of machine learning black-box models is key for designing and adopting AI technologies​
+by end users. XAI tools such as SHAP or LIME have been purposely developed to support such explainability​
+but their exploration in the HCI community has been limited. This paper reports a systematic review of 142​
+papers targeting design, use or evaluation of XAI tools with the aim to investigate their different types, users,​
+application domains, input and output data sets, and their user interfaces. Findings indicate a broad range of​
+XAI tools but extensive use of a few, a prevalence of AI experts as users rather than evaluators of these tools.​
+We discuss our findings arguing for the need to move beyond the design of novel XAI tools towards increasing​
+their use and comparative evaluation. We also argue for the need for HCI-grounded user interface design for​
+XAI tools and advance an initial design space for AI-HCI research integrating AI affordances with the​
+application domains of XAI tools mapped to key HCI research areas.​
+Explainable AI. XAI tools. Users. Application domains. XAI interfaces. Input data. Output data​
+
+Liao2022human​
+In recent years, the field of explainable AI (XAI) has produced a vast collection of algorithms, providing a​
+useful toolbox for researchers and practitioners to build XAI applications. With the rich application opportunities, explainability is​
+believed to have moved beyond a demand by data scientists or researchers to comprehend the models they develop, to an essential​
+requirement for people to trust and adopt AI deployed in numerous domains. However, explainability is an inherently human-centric​
+property and the field is starting to embrace human-centered approaches. Human-computer interaction (HCI) research and user​
+experience (UX) design in this area are becoming increasingly important. In this chapter, we begin with a high-level overview of​
+the technical landscape of XAI algorithms, then selectively survey our own and other recent HCI works that take human-centered​
+approaches to design, evaluate, and provide conceptual and methodological tools for XAI. We ask the question “what are human-centered​
+approaches doing for XAI ” and highlight three roles that they play in shaping XAI technologies by helping navigate, assess and expand​
+the XAI toolbox: to drive technical choices by users’ explainability needs, to uncover pitfalls of existing XAI methods and inform new​
+methods, and to provide conceptual frameworks for human-compatible XAI.​
+
+jacovi2023trends​
+The XAI literature is decentralized, both in terminology and in publication venues, but recent years saw the community converge around​
+keywords that make it possible to more reliably discover papers automatically. We use keyword search using the SemanticScholar​
+API and manual curation to collect a well-formatted and reasonably comprehensive set of 5199 XAI papers, available at https:​
+//github.com/alonjacovi/XAI-Scholar. We use this collection to clarify and visualize trends about the size and scope of the literature,​
+citation trends, cross-field trends, and collaboration trends. Overall, XAI is becoming increasingly multidisciplinary, with relative​
+growth in papers belonging to increasingly diverse (non-CS) scientific fields, increasing cross-field collaborative authorship, increasing​
+cross-field citation activity. The collection can additionally be used as a paper discovery engine, by retrieving XAI literature which is​
+cited according to specific constraints (for example, papers that are influential outside of their field, or influential to non-XAI research).​
